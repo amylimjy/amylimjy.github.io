@@ -1,9 +1,9 @@
-function App() {
+import "@/assets/styles/main.scss";
+import React from "react";
+import { HomePage } from "@/components/pages/HomePage";
+
+export const App = (): React.JSX.Element => {
   return (
-    <div>
-      Test Website
-    </div>
+    <HomePage />
   )
 }
-
-export default App
