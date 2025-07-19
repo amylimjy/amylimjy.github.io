@@ -1,9 +1,15 @@
 import React from 'react'
 
-export const Divider = ({direction = "horizontal"} ): React.JSX.Element => {
+interface DividerProps extends React.ComponentPropsWithRef<"div"> {
+    direction?: "horizontal" | "vertical",
+    shade?: "darker" | "lighter",
+    className?: string
+}
+
+export const Divider = ({direction = "horizontal", shade = "darker", className = ""}: DividerProps ): React.JSX.Element => {
     return (
         direction === "horizontal" 
-        ? <hr className="my-12 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" /> 
-        : <div className="mx-4 inline-block w-0.5 self-stretch bg-gray-300"></div>
+        ? <hr className={`my-4 h-0.5 ${shade === "darker" ? "bg-gray-400" : "bg-gray-200"} ${className}`} /> 
+        : <div className={`mx-4 w-0.5 self-stretch ${shade === "darker" ? "bg-gray-400" : "bg-gray-200"} ${className}`}></div>
     )
 }
