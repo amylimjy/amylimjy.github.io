@@ -11,7 +11,7 @@ export const ResumeEmployment = (): React.JSX.Element => {
           <div className={`flex-1 mx-4 ${item.end.toLowerCase() === "present" ? "font-bold" : ""}`}>
             {item.title}, {item.employer}
           </div>
-          <div className={`mx-4 ${item.end.toLowerCase() === "present" ? "font-bold" : ""}`}>
+          <div className={`text-left max-w-48 mx-4 ${item.end.toLowerCase() === "present" ? "font-bold" : ""}`}>
             {item.location} | {item.start} - {item.end}
           </div>
         </div>
