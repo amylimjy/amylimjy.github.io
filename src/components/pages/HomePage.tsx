@@ -11,9 +11,9 @@ export const HomePage = (): React.JSX.Element => {
             <div className="text-black">
                 <div id="resume-container" className="flex flex-col">
                     <Headline />
-                    <Divider />
+                    <Divider className="bg-gray-400"/>
                     <Introduction />
-                    <Divider />
+                    <Divider className="bg-gray-400"/>
                     <Resume />
                 </div>
             </div>
