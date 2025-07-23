@@ -1,8 +1,12 @@
 import React from "react";
+import { Divider } from "@/components/layout/Divider";
 import { ResumeEmployment } from "@/components/page-sections/ResumeEmployment";
 import { ResumeEducation } from "@/components/page-sections/ResumeEducation";
 import { ResumeTalksInvited } from "@/components/page-sections/ResumeTalksInvited";
-import { Divider } from "@/components/layout/Divider";
+import { ResumePublication } from "@/components/page-sections/ResumePublication";
+import { ResumeAward } from "@/components/page-sections/ResumeAward";
+import { ResumeConference } from "@/components/page-sections/ResumeConference";
+import { ResumeLanguage } from "@/components/page-sections/ResumeLanguage";
 
 export const Resume = (): React.JSX.Element => {
   return (
@@ -11,10 +15,14 @@ export const Resume = (): React.JSX.Element => {
         <div className="flex-1">
           <ResumeEmployment />
           <ResumeEducation />
+          <ResumeAward />
+          <ResumePublication />
+          <ResumeConference />
         </div>
         <Divider direction="vertical" className="bg-gray-200" />
         <div className="min-w-64">
           <ResumeTalksInvited />
+          <ResumeLanguage />
         </div>
       </div>
     </div>
