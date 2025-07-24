@@ -11,9 +11,9 @@ export const Headline = (): React.JSX.Element => {
 
   return (
     <div className="flex flex-col md:flex-row justify-between mt-4">
-      <div>
-        <div className="text-h2 text-blue-800">Amy J. Lim</div>
-        <div className="text-h5">Evolutionary and Social Psychologist</div>
+      <div className="ml-10">
+        <div className="text-h2 text-blue-800 font-bold">Amy J. Lim</div>
+        <div className="text-h5 italic">Evolutionary and Social Psychologist</div>
       </div>
       <div className="flex flex-row mr-20">
         <Divider direction="vertical" className="hidden md:block bg-gray-200" />

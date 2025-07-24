@@ -7,11 +7,12 @@ export const ResumeEmployment = (): React.JSX.Element => {
     <div className="flex-1 mb-8">
       <ResumeSectionTitle title="EMPLOYMENT" />
       {jsonData.map((item, index) => (
-        <div key={index} className="flex justify-between mb-2">
-          <div className={`flex-1 mx-4 ${item.end.toLowerCase() === "present" ? "font-bold" : ""}`}>
-            {item.title}, {item.employer}
+        <div key={index} className="grid grid-cols-4">
+          <div className={`col-span-3 col-start-1 text-left ml-4 ${item.end.toLowerCase() === "present" ? "font-bold" : ""}`}>
+            {item.title} <br />
+            {item.employer}
           </div>
-          <div className={`text-left max-w-48 mx-4 ${item.end.toLowerCase() === "present" ? "font-bold" : ""}`}>
+          <div className={`col-start-4 text-right mr-4 ${item.end.toLowerCase() === "present" ? "font-bold" : ""} text-xs`}>
             {item.location} | {item.start} - {item.end}
           </div>
         </div>
