@@ -12,7 +12,7 @@ export const ResumeEmployment = (): React.JSX.Element => {
             {item.title} <br />
             {item.employer}
           </div>
-          <div className={`col-start-4 text-right mr-4 ${item.end.toLowerCase() === "present" ? "font-bold" : ""} text-xs`}>
+          <div className={`col-start-4 text-right mr-4 text-xs ${item.end.toLowerCase() === "present" ? "font-bold" : ""}`}>
             {item.location} | {item.start} - {item.end}
           </div>
         </div>
