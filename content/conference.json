@@ -1,8 +1,14 @@
 [
     {
         "speakers": "some speakers",
-        "title": "",
-        "organization": "",
-        "year": ""
+        "title": "talk title 1",
+        "organization": "organization #1",
+        "year": "2024"
+    },
+    {
+        "speakers": "another set of speakers",
+        "title": "talk title 2",
+        "organization": "organization #2",
+        "year": "2025"
     }
 ]

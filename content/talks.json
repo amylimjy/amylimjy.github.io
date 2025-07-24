@@ -1,6 +1,10 @@
 [
     {
         "location": "TALKS",
-        "mmmyyyy": "June 2024"
+        "date": "June 2024"
+    },
+    {
+        "location": "Talk 2",
+        "date": "June 2025"
     }
 ]
