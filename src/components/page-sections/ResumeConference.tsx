@@ -7,7 +7,7 @@ export const ResumeConference = (): React.JSX.Element => {
     <div className="flex-1">
       <ResumeSectionTitle title="CONFERENCE" />
       {jsonData.map((item, index) => (
-        <div key={index} className="grid grid-cols-4">
+        <div key={index} className="grid grid-cols-4 my-2">
           <div className={`col-span-3 col-start-1 text-left ml-4`}>
             {item.speakers}, {item.title}
           </div>

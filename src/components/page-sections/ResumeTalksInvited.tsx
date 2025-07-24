@@ -9,7 +9,7 @@ export const ResumeTalksInvited = (): React.JSX.Element => {
             <ResumeSectionTitle title="TALKS GIVEN" />
             {jsonData.map((item, index) =>
                 <div key={index} className="ml-4">
-                    {item.location} | {item.mmmyyyy}
+                    {item.location} | {item.date}
                 </div>
             )}
         </div>
