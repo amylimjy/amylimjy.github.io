@@ -111,6 +111,61 @@
     }
   ],
   "chapters": [
-    
+    {
+      "authors": ["Lim, A. J."],
+      "year": "Accepted for publication, 2026",
+      "title": "Evolutionary Social Psychology. In S. Kanazawa (Eds.).",
+      "book": "Handbook of Evolutionary Psychology.",
+      "publisher": "Edward Elgar Publishing, UK."
+    },
+    {
+      "authors": ["Lim, A. J.", "Waring, P."],
+      "year": "2021",
+      "title": "'Complexity and Opportunity in Diversity Challenges in Singapore', (eds) Dhakal, Cameron and Burgess A Field Guide to Managing Diversity.",
+      "book": "Equality and Inclusion in Organisations,",
+      "publisher": " Springer."
+    },
+    {
+      "authors": ["Javadpour, S.", "Lim, A. J."],
+      "year": "2020",
+      "title": "Male Coalition in Hunting. In T. K. Shackelford & V. Weekes-Shackelford (Eds.).",
+      "book": "Encyclopedia of evolutionary psychological science.",
+      "publisher": "Cham, CH: Springer."
+    },
+    {
+      "authors": ["Lim, A. J."],
+      "year": "2020",
+      "title": "Social Comparison. In T. K. Shackelford & V. Weekes-Shackelford (Eds.).",
+      "book": "Encyclopedia of evolutionary psychological science.",
+      "publisher": "Cham, CH: Springer."
+    },
+    {
+      "authors": ["Paul, N. M.", "Lim, A. J."],
+      "year": "2020",
+      "title": "Mate Value Inflation. In T. K. Shackelford & V. Weekes-Shackelford (Eds.).",
+      "book": "Encyclopedia of evolutionary psychological science.",
+      "publisher": "Cham, CH: Springer."
+    },
+    {
+      "authors": ["Lim, H. L.", "Lim, A. J."],
+      "year": "2020",
+      "title": "Absence of Events To Distinguish True Friends. In T. K. Shackelford & V. Weekes-Shackelford (Eds.).",
+      "book": "Encyclopedia of evolutionary psychological science.",
+      "publisher": "Cham, CH: Springer."
+    },
+    {
+      "authors": ["Tan, E.", "Lim, A. J."],
+      "year": "2020",
+      "title": "Daniel Nettle. In T. K. Shackelford & V. Weekes-Shackelford (Eds.).",
+      "book": "Encyclopedia of evolutionary psychological science.",
+      "publisher": "Cham, CH: Springer."
+    },
+    {
+      "authors": ["Lim, A. J.", "Yong, J. C."],
+      "year": "2019",
+      "title": "Social media. In T. K. Shackelford & V. Weekes-Shackelford (Eds.).",
+      "book": "Encyclopedia of evolutionary psychological science.",
+      "publisher": "Cham, CH: Springer."
+    }
   ]
 }
