@@ -1,13 +1,14 @@
-[
+{
+  "journal": [
     {
-        "authors": [
-            "Yong, J. C.",
-            "Lim, A. J.",
-            "Li, N. P."
-        ],
-        "title": "When social status gets in the way of reproduction in modern settings: An evolutionary mismatch perspective",
-        "year": "2024",
-        "journal": "Culture and Evolution",
-        "link": "https://akjournals.com/view/journals/2055/20/1/article-p59.xml"
+      "authors": ["Yong, J. C.", "Lim, A. J.", "Li, N. P."],
+      "title": "When social status gets in the way of reproduction in modern settings: An evolutionary mismatch perspective",
+      "year": "2024",
+      "journal": "Culture and Evolution",
+      "link": "https://akjournals.com/view/journals/2055/20/1/article-p59.xml"
     }
-]
+  ],
+  "chapters": [
+    
+  ]
+}
