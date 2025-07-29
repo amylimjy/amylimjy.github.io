@@ -1,11 +1,113 @@
 {
   "journal": [
     {
-      "authors": ["Yong, J. C.", "Lim, A. J.", "Li, N. P."],
-      "title": "When social status gets in the way of reproduction in modern settings: An evolutionary mismatch perspective",
+      "authors": ["Lim, A. J.", "Li, N. P.", "Colarelli, S. M.", "Tsai, M-H.", "Wei, L.", "van Vugt, M.", "Liu, X-x."],
+      "year": "R&R, 2025",
+      "title": "Is the Association between Nature and Creativity a Trope? The Effects of Natural and Evolutionarily Novel Stimuli on Creativity.",
+      "journal": "Journal of Environmental Psychology."
+    },
+    {
+      "authors": ["Li, N. P.", "Lim, A. J."],
+      "year": "Accepted for publication, 2025",
+      "title": "Invited Commentary on Two tiers, not one: Different sources of extrinsic mortality have opposing effects on life history traits.",
+      "journal": "Behavioral and Brain Sciences."
+    },
+    {
+      "authors": ["Lim, A. J.", "Yong, J.C.", "Tan, E."],
+      "year": "2025",
+      "title": "Artificial Intelligence, Fundamental Motives, and Evolutionary Mismatch.",
+      "journal": "Evolutionary and Behavioral Sciences.",
+      "link": "https://doi.org/10.1037/ebs0000379"
+    },
+    {
+      "authors": ["Lim, A. J.", "Humble, R.", "Ng, X. D.", "Durai, A."],
+      "year": "2025",
+      "title": "Languishing: Do University Students with Better Mental Health Literacy Fare Better?",
+      "journal": "Journal of Applied Learning and Teaching.",
+      "link": "https://doi.org/10.37074/jalt.2025.8.1.6"
+    },
+    {
+      "authors": ["von Hippel, C.", "Kühner, C.", "Coundouris, S.P.", "Lim, A. J.", "Henry, J. D.", "Zacher, H."],
       "year": "2024",
-      "journal": "Culture and Evolution",
-      "link": "https://akjournals.com/view/journals/2055/20/1/article-p59.xml"
+      "title": "Stereotype Threat at Work: A Meta-Analysis.",
+      "journal": "Personality and Social Psychology Bulletin."
+    },
+    {
+      "authors": ["Lim, A. J.", "Tan, E."],
+      "year": "2024",
+      "title": "Social Media Ills and Evolutionary Mismatches: A Conceptual Framework.",
+      "journal": "Evolutionary Psychological Science, 1-24."
+    },
+    {
+      "authors": ["Cheng, C. Y.", "Lim, A. J.", "Tan, Y. W.", "Lee, F."],
+      "year": "2024",
+      "title": "Gender and Professional Identities in Businesswomen's Negotiation.",
+      "journal": "Psychological reports, 00332941241287422."
+    },
+    {
+      "authors": ["Lim, A. J.", "Li, N. P.", "Manesi, Z.", "Neuberg, S. L.", "van Vugt, M.", "Meltzer, A. L.", "Tan, K."],
+      "year": "2023",
+      "title": "Desire for Social Status Affects Marital and Reproductive Attitudes: A Life History Mismatch Perspective.",
+      "journal": "Current Research in Ecological and Social Psychology, 100125."
+    },
+    {
+      "authors": ["Yong, J. C.", "Lim, A. J.", "Li, N. P."],
+      "year": "2023",
+      "title": "When Social Status Gets in the Way of Mating: The Incompatibility Between Social Status and Reproductive Goals in Modern Contexts.",
+      "journal": "Culture and Evolution."
+    },
+    {
+      "authors": ["Tan, E.", "Mwagwabi, F.", "Lim, T.", "Lim, A. J."],
+      "year": "2022",
+      "title": "Graduate Employability Concerns Amidst a Crisis: Student Perspectives from Singapore on COVID-19.",
+      "journal": "Industry and Higher Education."
+    },
+    {
+      "authors": ["Tan, K.", "Li, N. P.", "Meltzer, A. L.", "Chin, J. L.", "Tan, L. K.", "Lim, A. J.", "...", "van Vugt, M."],
+      "year": "2022",
+      "title": "Effects of economic uncertainty and socioeconomic status on reproductive timing: A life history approach.",
+      "journal": "Current Research in Ecological and Social Psychology, 3, 100040."
+    },
+    {
+      "authors": ["Lim, A. J.", "Lau, C.Y. H", "Cheng, CY."],
+      "year": "2022",
+      "title": "Applying the Dual Filial Piety Model (DFPM) in the United States: A Comparison of Filial Piety between Asian Americans and Caucasian Americans.",
+      "journal": "Frontiers in Psychology."
+    },
+    {
+      "authors": ["Lim, A. J.", "Lau, C.Y. H", "Li, N. P."],
+      "year": "2021",
+      "title": "The Moderating Role of Social Network Size on Social Media Use and Self-Esteem: An Evolutionary Mismatch Perspective.",
+      "journal": "Frontiers in Psychology."
+    },
+    {
+      "authors": ["Lim, A. J.", "Javadpour, Sasha."],
+      "year": "2021",
+      "title": "Into the Unknown: Uncertainty and Procrastination in Students from a Life History Perspective.",
+      "journal": "Frontiers in Psychology."
+    },
+    {
+      "authors": ["Lim, A. J.", "Tan, E.", "Lim, T."],
+      "year": "2021",
+      "title": "Infodemic: Death-related thoughts and News-sharing.",
+      "journal": "Cognitive Research: Principles and Implications."
+    },
+    {
+      "authors": ["Li, N. P.", "Yong, J. C.", "Tsai, M-H.", "Lai, M.H.C.", "Lim, A. J.",  "Ackerman, J. M."],
+      "year": "2020",
+      "title": "The Desirability of Social Confidence in Initial, Opposite Sex Interactions.",
+      "journal": "Journal of Personality."
+    },
+    {
+      "authors": ["Lim, A. J.", "Cheng, C. Y. (review)."],
+      "title": "Budgeting Competence and Warmth: The Effect of Gender-Professional Identity Integration.",
+      "journal": "Journal of Managerial Psychology."
+    },
+    {
+      "authors": ["Li, N. P.", "Lim, A. J.", "Tsai, M-H.", "O, J."],
+      "title": "Too materialistic to get married and have children?",
+      "year": "2015",
+      "journal":"PLoS ONE, 10(5): e0126543. doi:10.1371/journal. pone.0126543."
     }
   ],
   "chapters": [
