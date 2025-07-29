@@ -6,9 +6,9 @@ import { ResumeSectionSubtitle } from "./ResumeSectionSubtitle";
 interface JournalEntry {
   authors: string[];
   title: string;
-  year: string;
+  year?: string;
   journal: string;
-  link: string;
+  link?: string;
 }
 
 interface JournalData {
@@ -59,17 +59,17 @@ export const ResumePublication = (): React.JSX.Element => {
       <ResumeSectionTitle title="PUBLICATIONS" />
       {journal.length > 0 && <ResumeSectionSubtitle subtitle="Journal"/>}
       {journal.map((item, index) => (
-        <div key={index} className="my-2">
-          <div className="mx-4">
-            {item.authors.map((author, index) => constructAuthorsString(author, item.authors, index))} ({item.year}) {item.title}. {item.link && <a href={item.link} target="_blank">[Paper]</a>}
+        <div key={index} className="-indent-8 pl-2 my-2">
+          <div className="pl-8 mx-4">
+            {item.authors.map((author, index) => constructAuthorsString(author, item.authors, index))} {item.year && `(${item.year}).`} {item.title} {item.journal} {item.link && <a href={item.link} target="_blank">[Paper]</a>}
           </div>
         </div>
       ))}
       {chapters.length > 0 && <ResumeSectionSubtitle subtitle="Chapters"/>}
       {chapters.map((item, index) => (
-        <div key={index} className="my-2">
-          <div className="mx-4">
-            {item.authors.map((author, index) => constructAuthorsString(author, item.authors, index))} ({item.year}) {item.title}.
+        <div key={index} className="-indent-8 pl-2 my-2">
+          <div className="pl-8 mx-4">
+            {item.authors.map((author, index) => constructAuthorsString(author, item.authors, index))} {item.year && `(${item.year}).`} {item.title}
           </div>
         </div>
       ))}
