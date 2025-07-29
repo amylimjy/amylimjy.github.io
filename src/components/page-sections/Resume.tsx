@@ -7,6 +7,7 @@ import { ResumePublication } from "@/components/page-sections/ResumePublication"
 import { ResumeAward } from "@/components/page-sections/ResumeAward";
 import { ResumeConference } from "@/components/page-sections/ResumeConference";
 import { ResumeLanguage } from "@/components/page-sections/ResumeLanguage";
+import { ResumeMembership } from "@/components/page-sections/ResumeMembership";
 
 export const Resume = (): React.JSX.Element => {
   return (
@@ -23,6 +24,7 @@ export const Resume = (): React.JSX.Element => {
         <div className="min-w-64">
           <ResumeTalksInvited />
           <ResumeLanguage />
+          <ResumeMembership />
         </div>
       </div>
     </div>
