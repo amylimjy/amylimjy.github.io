@@ -15,7 +15,7 @@ export const Headline = (): React.JSX.Element => {
         <div className="text-h2 text-blue-800 font-bold">Amy J. Lim</div>
         <div className="text-h5 italic">Evolutionary and Social Psychologist</div>
       </div>
-      <div className="flex flex-row mr-20">
+      <div className="ml-10 md:ml-0 flex flex-row mr-20">
         <Divider direction="vertical" className="hidden md:block bg-gray-200" />
         <ul>
           <li className={createListItemClass()}>
