@@ -2,6 +2,7 @@ import React from "react";
 import { ResumeSectionTitle } from "./ResumeSectionTitle";
 import jsonData from "@/../content/publication.json";
 import { ResumeSectionSubtitle } from "./ResumeSectionSubtitle";
+import { constructAuthorsString } from "@/utils/StringUtils";
 
 interface JournalEntry {
   authors: string[];
@@ -40,36 +41,9 @@ interface MediaData {
 }
 
 export const ResumePublication = (): React.JSX.Element => {
-
-  const authorName: string = "Lim, A. J."
-
   const { journal }: JournalData = jsonData;
   const { chapters }: ChapterData = jsonData;
   const { media }: MediaData = jsonData;
-  
-  const isLastItem = (array: string[], index: number) => {
-    return index === array.length - 1;
-  }
-
-  const isTheOnlyItem = (array: string[]) => {
-    return array.length === 1;
-  }
-
-  const hasMoreAuthor = (array: string[], index: number) => {
-    return index < array.length - 1;
-  }
-
-  const isSecondLastItem = (array: string[], index: number) => {
-    return index === array.length - 2;
-  }
-
-  const constructAuthorsString = (author: string, array: string[], index: number) => {
-    return (<>
-      {isLastItem(array, index) && !isTheOnlyItem(array) && <span> & </span>}
-      {author.includes(authorName) ? <span className="font-bold">{author}</span> : <span>{author}</span>}
-      {hasMoreAuthor(array, index) && !isSecondLastItem(array, index) && <span>, </span>}
-    </>)
-  }
 
   return (
     <div className="flex-1 mb-8">
