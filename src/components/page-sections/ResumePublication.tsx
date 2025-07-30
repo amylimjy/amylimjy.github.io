@@ -27,10 +27,25 @@ interface ChapterData {
   chapters: ChapterEntry[];
 }
 
+interface MediaEntry {
+  authors: string[];
+  title: string;
+  paper: string;
+  date: string;
+  link?: string;
+}
+
+interface MediaData {
+  media: MediaEntry[];
+}
+
 export const ResumePublication = (): React.JSX.Element => {
+
+  const authorName: string = "Lim, A. J."
 
   const { journal }: JournalData = jsonData;
   const { chapters }: ChapterData = jsonData;
+  const { media }: MediaData = jsonData;
   
   const isLastItem = (array: string[], index: number) => {
     return index === array.length - 1;
@@ -51,7 +66,7 @@ export const ResumePublication = (): React.JSX.Element => {
   const constructAuthorsString = (author: string, array: string[], index: number) => {
     return (<>
       {isLastItem(array, index) && !isTheOnlyItem(array) && <span> & </span>}
-      {author === "Lim, A. J." ? <span className="font-bold">{author}</span> : <span>{author}</span>}
+      {author.includes(authorName) ? <span className="font-bold">{author}</span> : <span>{author}</span>}
       {hasMoreAuthor(array, index) && !isSecondLastItem(array, index) && <span>, </span>}
     </>)
   }
@@ -67,11 +82,21 @@ export const ResumePublication = (): React.JSX.Element => {
           </div>
         </div>
       ))}
+
       {chapters.length > 0 && <ResumeSectionSubtitle subtitle="Chapters"/>}
       {chapters.map((item, index) => (
         <div key={index} className="-indent-8 pl-2 my-2">
           <div className="pl-8 mx-4">
             {item.authors.map((author, index) => constructAuthorsString(author, item.authors, index))} {item.year && `(${item.year}).`} {item.title} {item.book} {item.publisher}
+          </div>
+        </div>
+      ))}
+
+      {media.length > 0 && <ResumeSectionSubtitle subtitle="Media Articles"/>}
+      {media.map((item, index) => (
+        <div key={index} className="-indent-8 pl-2 my-2">
+          <div className="pl-8 mx-4">
+            {item.authors.map((author, index) => constructAuthorsString(author, item.authors, index))} {item.title} {item.paper} {item.date} {item.link && <a href={item.link} target="_blank">[Link]</a>}
           </div>
         </div>
       ))}
