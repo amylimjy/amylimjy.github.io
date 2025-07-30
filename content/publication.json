@@ -167,5 +167,71 @@
       "book": "Encyclopedia of evolutionary psychological science.",
       "publisher": "Cham, CH: Springer."
     }
+  ],
+  "media": [
+    {
+      "authors": ["[Lim, A. J. Commentary]."],
+      "title": "Hear Me Out: Racism by a thousand microaggressions is a mixed-race kid’s reality.",
+      "paper": "",
+      "date": "31 May 2025"
+    },
+    {
+      "authors": ["[Lim, A. J. Commentary]."],
+      "title": "Only a third of S’pore travellers will wake aisle seat passenger to get to the bathroom: Survey.",
+      "paper": "Life. The Straits Times.",
+      "date": "14 May 2025."
+    },
+    {
+      "authors": ["Lim, A. J."],
+      "title": "Caution: Crowded living is affecting our fertility rates.",
+      "paper": "Opinion. The Straits Times.",
+      "date": "23 October 2024."
+    },
+    {
+      "authors": ["Lim, A. J."],
+      "title": "Prioritise info from family and friends on social media.",
+      "paper": "Forum. Letter of the day. The Straits Times.",
+      "date": "11 July 2024."
+    },
+    {
+      "authors": ["Lim, A. J."],
+      "title": "Why Financial Incentives Isn't the Answer to Boost Fertility.",
+      "paper": "Population Association of Singapore.",
+      "date": "16 November 2023."
+    },
+    {
+      "authors": ["Lim, A. J."],
+      "title": "Beyond Money: Why Financial Incentives Can't Boost Fertility Rates.",
+      "paper": "Opinion. The Straits Times.",
+      "date": "14 September 2023."
+    },
+    {
+      "authors": ["Lim, A. J."],
+      "title": "Desire for social status may lead individuals to marry later and want fewer children, study suggests.",
+      "paper": "PsyPost.",
+      "date": "September 2023.",
+      "link": "https://www.psypost.org/2023/09/desire-for-social-status-may-lead-individuals-to-marry-later-and-want-fewer-children-study-suggests-168671"
+    },
+    {
+      "authors": ["Lim, A. J."],
+      "title": "Dating with a Conversation-Centred Approach.",
+      "paper": "Kopi Date.",
+      "date": "May 2023.",
+      "link": "https://medium.com/kopi-date/kopidate-a-dating-agency-with-a-conversation-centered-approach-e540c57bd819"
+    },
+    {
+      "authors": ["Lim, A. J."],
+      "title": "What makes people say yes?",
+      "paper": "Kopi Date.",
+      "date": "March 2023.",
+      "link": "https://medium.com/kopi-date/kopi-date-what-makes-people-say-yes-8d0d3b6e44fd"
+    },
+    {
+      "authors": ["Lim, A. J."],
+      "title": "Ever wondered about your behaviours in a relationship?",
+      "paper": "Kopi Date.",
+      "date": "March 2023.",
+      "link": "https://medium.com/kopi-date/kopi-date-ever-wondered-about-your-behaviours-in-a-relationship-7f7f4ac175b7"
+    }
   ]
 }
