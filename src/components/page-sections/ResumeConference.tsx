@@ -4,7 +4,7 @@ import jsonData from "@/../content/conference.json";
 import { constructAuthorsString } from "@/utils/StringUtils";
 
 interface ConferenceEntry {
-  speakers: string[];
+  collaborators: string[];
   title: string;
   organization: string;
   location?: string;
@@ -21,7 +21,7 @@ export const ResumeConference = (): React.JSX.Element => {
       {conferences.map((item, index) => (
         <div key={index} className="my-4">
           <div className="mx-4">
-            {item.speakers.map((author, index) => constructAuthorsString(author, item.speakers, index))} {item.title} {item.date && `(${item.date}).`} {`${item.organization} ${item.location}`}
+            {item.collaborators.map((author, index) => constructAuthorsString(author, item.collaborators, index))} {item.title} {item.date && `(${item.date}).`} {`${item.organization} ${item.location}`}
           </div>
         </div>
       ))}
