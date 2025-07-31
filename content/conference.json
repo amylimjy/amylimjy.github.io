@@ -1,121 +1,191 @@
 [
     {
-        "speakers": ["Lagon, S.", "Macmillan, K.", "Følner, B.", "Jordan, J-A.", "Lim, A. J.", "Watson, S. J.", "Gleeson, K.", "Hassan, J.", "Vindbjerg, E.", "Lyngbye, P.", "Del Pizzo, S."],
+        "collaborators": ["Lagon, S.", "Macmillan, K.", "Følner, B.", "Jordan, J-A.", "Lim, A. J.", "Watson, S. J.", "Gleeson, K.", "Hassan, J.", "Vindbjerg, E.", "Lyngbye, P.", "Del Pizzo, S."],
         "title": "Researching Public Understanding of Coercive Control - Replication and Reflections across four countries.",
         "organization": "European Conference on Domestic Violence.",
         "date": "2025",
         "location": "Barcelona, Spain."
     },
     {
-        "speakers": ["Tan, E.", "Divakar, A.", "Lim, A. J."],
+        "collaborators": ["Tan, E.", "Divakar, A.", "Lim, A. J."],
         "title": "AI Teacher for ASD: An Exploratory Study of GenAI Responses to the Autism Stigma and Knowledge Questionnaire (ASK-Q).",
         "organization": "Applied Learning Conference.",
         "date": "2025",
         "location": "Singapore."
     },
     {
-        "speakers": ["Lim, A. J.", "Li, N. P."],
+        "collaborators": ["Lim, A. J.", "Li, N. P."],
         "title": "A Life History Mismatch: Unraveling the Puzzle of Low Birth Rates. Talk presented as part of symposium, Forgotten Roots: How the Ancestral Past Shapes Social Behaviors.",
         "organization": "Society for Personality and Social Psychology Annual Convention.",
         "date": "2025",
         "location": "Denver, Colorado, USA."
     },
     {
-        "speakers": ["Lim, A. J.", "Li, N. P."],
+        "collaborators": ["Lim, A. J.", "Li, N. P."],
         "title": "Status Desire and Uncertainty on Marital and Reproductive Attitudes and Decisions: An Evolutionary Mismatch Perspective.",
         "organization": "Human Behavior and Evolution Society.",
         "date": "2024",
         "location": "Aarhus, Denmark."
     },
     {
-        "speakers": ["Cheng, C. Y.", "Lim, A. J.", "Lee, F."],
+        "collaborators": ["Cheng, C. Y.", "Lim, A. J.", "Lee, F."],
         "title": "Women in Business: The Role of Gender and Professional Identities in Negotiation.",
         "organization": "83rd Annual Meeting of the Academy of Management.",
         "date": "August, 2023",
         "location": "Boston, Massachusetts, USA."
     },
     {
-        "speakers": ["Colarelli, S. M.", "Lim, A. J.", "Liu, X.", "Li, N. P.", "Wei, L.", "Tsai, M.", "O, J.", "Van Vugt, M."],
+        "collaborators": ["Colarelli, S. M.", "Lim, A. J.", "Liu, X.", "Li, N. P.", "Wei, L.", "Tsai, M.", "O, J.", "Van Vugt, M."],
         "title": "Effects of Evolutionarily Novel and Natural Stimuli on Creativity: An Evolutionary Mismatch Framework.",
         "organization": "Human Behavior and Evolution Society.",
         "date": "2023",
-        "location": "Palm Springs, CA."
+        "location": "Palm Springs, CA. USA."
     },
     {
-        "speakers": ["Li, N. P.", "Yong, J. C.", "Tsai, M-H.", "Lai, M. H. C.", "Lim, A. J.", "Ackerman, J. M."],
+        "collaborators": ["Li, N. P.", "Yong, J. C.", "Tsai, M-H.", "Lai, M. H. C.", "Lim, A. J.", "Ackerman, J. M."],
         "title": "Confidence is sexy and trainable: Examining an important but neglected mate preference.",
         "organization": "Human Behavior and Evolution Society.",
         "date": "June, 2023",
-        "location": "Palm Springs, CA."
+        "location": "Palm Springs, CA. USA."
     },
     {
-        "speakers": ["Yong, J. C.", "Lim, A. J.", "Li, N. P."],
+        "collaborators": ["Yong, J. C.", "Lim, A. J.", "Li, N. P."],
         "title": "When social status gets in the way of reproduction in modern settings: An evolutionary mismatch perspective.",
         "organization": "Human Behavior and Evolution Society.",
         "date": "June, 2023",
-        "location": "Palm Springs, CA."
+        "location": "Palm Springs, CA. USA."
     },
     {
-        "speakers": ["Lim, A. J.", "Li, N. P."],
+        "collaborators": ["Lim, A. J.", "Li, N. P."],
         "title": "The Effect of Population Density on Marital and Reproductive Attitudes and Decisions: An Experimental Investigation.",
         "organization": "Human Behavior and Evolution Society.",
         "date": "June, 2023",
-        "location": "Palm Springs, CA."
+        "location": "Palm Springs, CA. USA."
     },
     {
-        "speakers": ["Lim, A. J.", "Lau, C.", "Li, N. P."],
+        "collaborators": ["Lim, A. J.", "Lau, C.", "Li, N. P."],
         "title": "The Moderating Role of Social Network Sizes on Social Media Use and Self-Esteem: An Evolutionary Mismatch Perspective.",
         "organization": "Human Behavior and Evolution Society.",
         "date": "2023",
         "location": ""
     },
     {
-        "speakers": ["Lim, A. J."],
+        "collaborators": ["Lim, A. J."],
         "title": "Evolutionary Mismatches on Social Media.",
         "organization": "SPSP Annual Convention (Round Table Speaker).",
         "date": "2023",
         "location": "Singapore."
     },
     {
-        "speakers": ["Lim, A. J.", "Ko, N.", "Yong, J. C.", "Tan, E.", "Li, Z. H."],
+        "collaborators": ["Lim, A. J.", "Ko, N.", "Yong, J. C.", "Tan, E.", "Li, Z. H."],
         "title": "The Underlying Motivation behind Asian Hate during COVID-19.",
         "organization": "SPSP Annual Convention.",
         "date": "2023",
         "location": "Singapore."
     },
     {
-        "speakers": ["Cheng, C. Y.", "Lim, A. J.", "Lee, Y. L.", "Cheng, S. F.", "Ramachandra, R. V.", "Khoo, S."],
+        "collaborators": ["Cheng, C. Y.", "Lim, A. J.", "Lee, Y. L.", "Cheng, S. F.", "Ramachandra, R. V.", "Khoo, S."],
         "title": "Not for Girls?: Gender Imbalance in STEM and Its impact on Female Students' Creative Performance.",
         "organization": "National Technology Enhanced Learning (NTEL) Conference.",
         "date": "2022",
         "location": "Singapore."
     }, 
     {
-        "speakers": ["Lim, A. J.", "Cheng, C. Y."],
+        "collaborators": ["Lim, A. J.", "Cheng, C. Y."],
         "title": "Not for Girls?: Gender Imbalance in STEM and Its impact on Female Students' Creative Performance.",
         "organization": "Women in STEM Research Symposium.",
         "date": "2022",
         "location": "Singapore."
     },
     {
-        "speakers": ["Ko, N.", "Tan, E.", "Lim, A. J."],
+        "collaborators": ["Ko, N.", "Tan, E.", "Lim, A. J."],
         "title": "Population Density and Cultural Tightness-Looseness on Trait Conscientiousness.",
         "organization": "SPSP Annual Convention",
         "date": "2022",
         "location": "Singapore."
     },
     {
-        "speakers": ["Priyasree, P.", "Lim, A. J."],
+        "collaborators": ["Priyasree, P.", "Lim, A. J."],
         "title": "The Impact of COVID-19 Lockdowns on Work-Family Conflict and Job Performance of Professionals.",
         "organization": "41st Annual Australian Family Therapy Virtual Conference, \"D__ISTANCES Generational Impacts of Displacement and Resettlement\"",
         "date": "October, 2021",
-        "location": "Online."
+        "location": "Virtual."
     },
     {
-        "speakers": ["Li, N. P.", "Yong, J. C.", "Tsai, M-H.", "Lai, M. H. C.", "Lim, A. J.", "Ackerman, J. M."],
+        "collaborators": ["Li, N. P.", "Yong, J. C.", "Tsai, M-H.", "Lai, M. H. C.", "Lim, A. J.", "Ackerman, J. M."],
         "title": "Confidence Is Sexy and Trainable: Evidence from Initial, Opposite-Sex Encounters",
         "organization": "APS Virtual Convention.",
         "date": "2021",
-        "location": "Online."
+        "location": "Virtual."
+    },
+    {
+        "collaborators": ["Javadpour, S.", "Lim, A. J."],
+        "title": "\"The Future-Self Guided Imagery Exercise: An Evolutionary Approach to Procrastination\".",
+        "organization": "APA Annual Convention for Division 15.",
+        "date": "2021",
+        "location": "Virtual."
+    },
+    {
+        "collaborators": ["Paul", "Lim, A. J."],
+        "title": "Mate Value Discrepancy, Social Media, Relationship Satisfaction.",
+        "organization": "SPSP Preconference on the Psychology of Media and Technology.",
+        "date": "February, 2021",
+        "location": "Virtual."
+    },
+    {
+        "collaborators": ["Lim, A. J.", "Lau, C."],
+        "title": "Self-esteem and Social Monitoring in Social Media: An Evolutionary Mismatch Perspective.",
+        "organization": "SPSP Preconference on the Psychology of Media and Technology",
+        "date": "February, 2021",
+        "location": "Virtual."
+    },
+    {
+        "collaborators": ["Tan, E.", "Lim, A. J."],
+        "title": "Mortality Salience on News-Sharing Intention",
+        "organization": "SPSP Virtual Annual Convention",
+        "date": "February, 2021",
+        "location": "Virtual."
+    },
+    {
+        "collaborators": ["Lim, A. J."],
+        "title": "Fighting the Female Stereotype with the Professional You.",
+        "organization": "Finalist, Psychological Science in 3, American Psychological Association",
+        "date": "August, 2020",
+        "location": "Washington DC, USA."
+    },
+    {
+        "collaborators": ["Lim, A. J."],
+        "title": "Coping with Stereotype Threat: The Role of Identity Integration.",
+        "organization": "Taiwan Association of Industrial and Organizational Psychology Conference.",
+        "date": "May, 2018",
+        "location": "Taipei, Taiwan."
+    },
+    {
+        "collaborators": ["Lim, A. J.", "Cheng, C. Y."],
+        "title": "Cognitive Resources of Female Professionals in the Workplace.",
+        "organization": "28th annual meeting of the Association for Psychological Science",
+        "date": "May, 2016",
+        "location": "Chicago, IL. USA."
+    },
+    {
+        "collaborators": ["Lim, A. J.", "Cheng, C. Y."],
+        "title": "The Influence of Gender-Professional Identity Integration on Female Professionals' Stereotype Endorsement and Social Perceptions.",
+        "organization": "17th annual meeting of the Society for Personality and Social Psychology.",
+        "date": "January, 2016",
+        "location": "San Diego, CA. USA."
+    },
+    {
+        "collaborators": ["Lim, A. J.", "Wee, S."],
+        "title": "The Dark Triad and work-related failures on counterproductive behaviors.",
+        "organization": "27th annual meeting of the Association for Psychological Science.",
+        "date": "May, 2015",
+        "location": "New York City, NY. USA."
+    },
+    {
+        "collaborators": ["Lim, A. J.", "Cheng, C. Y."],
+        "title": "What do I wear: Effect of identity-related cues and G-PII on female professionals' work outfit decision.",
+        "organization": "27th annual meeting of the Association for Psychological Science.",
+        "date": "May, 2015",
+        "location": "New York City, NY. USA."
     }
 ]
