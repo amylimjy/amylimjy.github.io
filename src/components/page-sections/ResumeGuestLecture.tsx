@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { ResumeSectionTitle } from './ResumeSectionTitle'
+import { ResumeSectionTitle } from '../labels/ResumeSectionTitle'
 import jsonData from "@/../content/lecture.json"
 
 interface LectureEntry {

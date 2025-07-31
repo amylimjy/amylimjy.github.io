@@ -1,7 +1,7 @@
 import React from "react";
-import { ResumeSectionTitle } from "./ResumeSectionTitle";
+import { ResumeSectionTitle } from "../labels/ResumeSectionTitle";
 import jsonData from "@/../content/media.json";
-import { ResumeSectionSubtitle } from "./ResumeSectionSubtitle";
+import { ResumeSectionSubtitle } from "../labels/ResumeSectionSubtitle";
 import { constructAuthorsString } from "@/utils/StringUtils";
 
 interface MediaEntry {

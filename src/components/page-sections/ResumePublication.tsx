@@ -1,7 +1,7 @@
 import React from "react";
-import { ResumeSectionTitle } from "./ResumeSectionTitle";
+import { ResumeSectionTitle } from "../labels/ResumeSectionTitle";
 import jsonData from "@/../content/publication.json";
-import { ResumeSectionSubtitle } from "./ResumeSectionSubtitle";
+import { ResumeSectionSubtitle } from "../labels/ResumeSectionSubtitle";
 import { constructAuthorsString } from "@/utils/StringUtils";
 
 interface JournalEntry {

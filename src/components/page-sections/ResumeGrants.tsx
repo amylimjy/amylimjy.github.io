@@ -1,5 +1,5 @@
 import React from "react";
-import { ResumeSectionTitle } from "./ResumeSectionTitle";
+import { ResumeSectionTitle } from "../labels/ResumeSectionTitle";
 import jsonData from "@/../content/grants.json";
 
 export const ResumeGrants = (): React.JSX.Element => {
