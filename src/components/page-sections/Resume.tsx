@@ -9,6 +9,7 @@ import { ResumeConference } from "@/components/page-sections/ResumeConference";
 import { ResumeLanguage } from "@/components/page-sections/ResumeLanguage";
 import { ResumeMembership } from "@/components/page-sections/ResumeMembership";
 import { ResumeMedia } from "@/components/page-sections/ResumeMedia";
+import { ResumeCertification } from "./ResumeCertification";
 
 export const Resume = (): React.JSX.Element => {
   return (
@@ -26,6 +27,7 @@ export const Resume = (): React.JSX.Element => {
         <Divider direction="vertical" className="bg-gray-200" />
         <div className="min-w-64">
           <ResumeLanguage />
+          <ResumeCertification />
           <ResumeMembership />
         </div>
       </div>
