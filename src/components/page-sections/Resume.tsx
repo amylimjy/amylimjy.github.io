@@ -17,10 +17,10 @@ export const Resume = (): React.JSX.Element => {
         <div className="flex-1">
           <ResumeEmployment />
           <ResumeEducation />
-          <ResumeGuestLecture />
-          <ResumeGrants />
           <ResumePublication />
           <ResumeConference />
+          <ResumeGuestLecture />
+          <ResumeGrants />
           <ResumeMedia />
         </div>
         <Divider direction="vertical" className="bg-gray-200" />

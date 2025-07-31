@@ -16,7 +16,7 @@ export const ResumeConference = (): React.JSX.Element => {
   const conferences: ConferenceEntry[] = jsonData;
 
   return (
-    <div className="flex-1">
+    <div className="flex-1 mb-8">
       <ResumeSectionTitle title="CONFERENCE" />
       {conferences.map((item, index) => (
         <div key={index} className="my-4">
