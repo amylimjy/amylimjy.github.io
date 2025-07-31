@@ -9,7 +9,8 @@ import { ResumeConference } from "@/components/page-sections/ResumeConference";
 import { ResumeLanguage } from "@/components/page-sections/ResumeLanguage";
 import { ResumeMembership } from "@/components/page-sections/ResumeMembership";
 import { ResumeMedia } from "@/components/page-sections/ResumeMedia";
-import { ResumeCertification } from "./ResumeCertification";
+import { ResumeCertification } from "@/components/page-sections/ResumeCertification";
+import { ResumeJournalService } from "@/components/page-sections/ResumeJournalService";
 
 export const Resume = (): React.JSX.Element => {
   return (
@@ -29,6 +30,7 @@ export const Resume = (): React.JSX.Element => {
           <ResumeLanguage />
           <ResumeCertification />
           <ResumeMembership />
+          <ResumeJournalService />
         </div>
       </div>
     </div>
