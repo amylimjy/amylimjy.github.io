@@ -1,11 +1,11 @@
 import React from "react";
 import { ResumeSectionTitle } from "./ResumeSectionTitle";
-import jsonData from "@/../content/award.json";
+import jsonData from "@/../content/grants.json";
 
-export const ResumeAward = (): React.JSX.Element => {
+export const ResumeGrants = (): React.JSX.Element => {
   return (
     <div className="flex-1 mb-8">
-      <ResumeSectionTitle title="AWARD & HONOR" />
+      <ResumeSectionTitle title="GRANTS & AWARDS" />
       {jsonData.map((item, index) => (
         <div key={index} className="grid grid-cols-4 my-2">
           <div className={`col-span-3 col-start-1 text-left ml-4`}>
