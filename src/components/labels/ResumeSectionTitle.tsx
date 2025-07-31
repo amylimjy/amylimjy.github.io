@@ -7,7 +7,7 @@ interface ResumeSectionTitleProps extends React.ComponentPropsWithRef<"div"> {
 
 export const ResumeSectionTitle = ({ title }: ResumeSectionTitleProps): React.JSX.Element => {
     return (
-        <div className="flex flex-row my-4">
+        <div className="flex flex-row my-4 mr-4">
             <Divider direction="vertical" className="w-1 bg-blue-800"/>
             <div className="text-h5 text-blue-800 font-bold">{title}</div>
         </div>

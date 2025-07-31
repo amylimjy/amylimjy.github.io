@@ -14,6 +14,7 @@ import { ResumeJournalService } from "@/components/page-sections/ResumeJournalSe
 import { ResumeConsultancyService } from "@/components/page-sections/ResumeConsultancyService";
 import { ResumeTeachingAssistantship } from "@/components/page-sections/ResumeTeachingAssistantship";
 import { ResumeCoursesAttended } from "@/components/page-sections/ResumeCoursesAttended";
+import { ResumeCompetencies } from "@/components/page-sections/ResumeCompetencies";
 
 export const Resume = (): React.JSX.Element => {
   return (
@@ -31,6 +32,7 @@ export const Resume = (): React.JSX.Element => {
         <Divider direction="vertical" className="bg-gray-200" />
         <div className="min-w-64">
           <ResumeLanguage />
+          <ResumeCompetencies />
           <ResumeCertification />
           <ResumeMembership />
           <ResumeJournalService />
