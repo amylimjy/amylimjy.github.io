@@ -13,6 +13,7 @@ import { ResumeCertification } from "@/components/page-sections/ResumeCertificat
 import { ResumeJournalService } from "@/components/page-sections/ResumeJournalService";
 import { ResumeConsultancyService } from "@/components/page-sections/ResumeConsultancyService";
 import { ResumeTeachingAssistantship } from "@/components/page-sections/ResumeTeachingAssistantship";
+import { ResumeCoursesAttended } from "@/components/page-sections/ResumeCoursesAttended";
 
 export const Resume = (): React.JSX.Element => {
   return (
@@ -35,6 +36,7 @@ export const Resume = (): React.JSX.Element => {
           <ResumeJournalService />
           <ResumeConsultancyService />
           <ResumeTeachingAssistantship />
+          <ResumeCoursesAttended />
         </div>
       </div>
     </div>
