@@ -4,14 +4,7 @@ import React from 'react'
 export const ScrollBackToTopButton = (): React.JSX.Element => {
 
     const [isVisible, setIsVisible] = React.useState<boolean>(false);
-
-    const toggleVisibility = () => {
-        if (window.pageYOffset > 300) {
-            setIsVisible(true);
-        } else {
-            setIsVisible(false);
-        }
-    }
+    const hideTimeoutRef = React.useRef<NodeJS.Timeout | null>(null);
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -21,9 +14,22 @@ export const ScrollBackToTopButton = (): React.JSX.Element => {
     };
 
     React.useEffect(() => {
-        window.addEventListener('scroll', toggleVisibility);
+        const handleScroll = () => {
+            if (window.pageYOffset > 300) {
+                setIsVisible(true);
+                clearTimeout(hideTimeoutRef.current!);
+                hideTimeoutRef.current = setTimeout(() => {
+                    setIsVisible(false);
+                }, 2000); // 2 seconds after scrolling stops
+            } else {
+                setIsVisible(false);
+                clearTimeout(hideTimeoutRef.current!);
+            }
+        };
+        window.addEventListener('scroll', handleScroll);
         return () => {
-            window.removeEventListener('scroll', toggleVisibility);
+            window.removeEventListener('scroll', handleScroll);
+            clearTimeout(hideTimeoutRef.current!);
         };
     }, []);
 
